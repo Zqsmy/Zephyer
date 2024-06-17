@@ -243,8 +243,9 @@ body {
 /* 旅行栏开始 */
 .travel {
     position: absolute;
+    width: 1440px;
     left: 50%;
-    bottom: 0%;
+    bottom: 150px;
     margin-left: -720px;
     height: 70px;
 
