@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="探索乌村的神秘魅力，沉浸在古老的文化与传统中。乌村，一个隐藏在青山绿水间的世外桃源，为您提供独特的旅游体验。从迷人的自然风光到丰富的历史遗迹，再到地道的美食和热情的村民，乌村是您放松身心、回归自然的理想之地。立即访问我们的网站，发现乌村的更多秘密，开始您的探险之旅！">
+    <meta name="keywords" content="乌村旅游，乌村景点，乌村住宿，乌村美食，乌村地图">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>乌村欢迎您！</title>
+    <link rel="shortcut icon" href="favicon.ico" type="favicon">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/common.css">
+
+
+
+</head>
+<!-- **农村旅游资源网站设计大*项目背景**:选择一个具有旅游价值的农村地区
+设计一个网站用于展示其旅游资源，如自然风光、乡村
+旅游项目、特色民宿等*网站内容**:包括地区简介、旅游景点介绍、旅游
+攻略、在线预订等技术要求*:利用网页设计技术，创建一个易于导
+航、界面友好、内容丰富的旅游信息平台。 -->
+
+<body>
+    <!-- 头部区域start：包含logo（自己制作，不能截图现有网站）、导航栏、搜索框、登录注册等。-->
+    <header>
+
+        <div class="head" id="top">
+            <div class="w">
+                <div class="logo">
+                    <!-- 优化搜索引擎logo -->
+                    <h1><a href="index.html" title="乌村">
+                            <img src="imgs/logo-white.png" alt="" class="logo_img">
+                        </a></h1>
+                </div>
+                <div class="fl">
+                    <ul class="clearfix">
+                        <li>
+                            <a href="#">了解乌村</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">乌村历史</a></li>
+                                <li><a href="#">乌村特色</a></li>
+                            </ul>
+                        </li>
+                        <li class="white"></li>
+                        <li>
+                            <a href="#">奢享时光</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">休闲活动</a></li>
+                                <li><a href="#">特色体验</a></li>
+                            </ul>
+                        </li>
+                        <li class="white"></li>
+                        <li><a href="book.html">在线预订</a></li>
+                        <li class="white"></li>
+                        <li>
+                            <a href="#">服务帮助</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">常见问题</a></li>
+                                <li><a href="#">联系我们</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="login">
+                    <ul>
+                        <li>乌村欢迎您！</li>
+                        <li><a href="login.html" style="color: #fff;">登录</a></li>
+                        <li><a href="register.html" class="s_red">免费注册</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- 头部区域end -->
+
+    <!-- section start:必须是轮播图，用JS实现。 -->
+    <section>
+        <div class="carousel">
+            <a href="#">
+                <h2>乡野农趣·乐在乌村</h2>
+            </a>
+            <div class="slides">
+                <!-- 替换为您的图片路径 -->
+                <div class="slide"><img src="imgs/bd1.jpg" alt="Slide 1"></div>
+                <div class="slide"><img src="imgs/bd2.jpg" alt="Slide 2"></div>
+                <div class="slide"><img src="imgs/bd3.jpg" alt="Slide 3"></div>
+                <div class="slide"><img src="imgs/bd4.jpg" alt="Slide 4"></div>
+                <!-- 更多轮播图幻灯片 -->
+            </div>
+
+        </div>
+
+    </section>
+    <!-- section end -->
+    <!-- main区域start：图文并茂、布局合理（单列、两列或者三列）。 -->
+    <main>
+        <div class="travel">
+            <div class="w">
+                <div class="start">
+                    <h2>开启您的假期生活</h2>
+                    <input type="search" placeholder="乌村旅游攻略">
+                    <a href="#"><span class="search_icon"></span></a>
+                    <a href="self.html"><button>开启行程 <i class="travel_icon"></i></button></a>
+                </div>
+                <div id="clock"></div>
+                <div class="s_date"><em style="font-weight: 700;">晴</em>&nbsp;29℃</div>
+                <script type="text/javascript">
+                    function getTime() {     //定义函数
+                        var now = new Date();    //创建日期对象
+                        document.getElementById('clock').innerHTML = now.toLocaleString(); //将日期和时间显示到盒子中
+                    }
+                    window.onload = setInterval(getTime, 1000); //每隔1s执行一次getTime()函数
+                </script>
+
+                <!-- 6月6日，晴，29℃ -->
+            </div>
+        </div>
+        </div>
+
+    </main>
+    <!-- main1区域end -->
+    <!-- 侧边栏开始 -->
+    <div class="relation">
+        <ul class="clearfix">
+            <li><a href="#" class="QQ"><img src="imgs/qq.png" alt=""> </a></li>
+            <p style="color: #000000;text-align: center;">QQ</p>
+            <li><a href="#" class="QQ"><img src="imgs/wechat.png" alt=""> </a></li>
+            <p style="color: black; text-align: center;">微信</p>
+            <li><a href="#" class="QQ"><img src="imgs/weibo.png" alt=""> </a></li>
+            <p style="color: black;text-align: center;">微博</p>
+            <li class="return"><a href="#top"></a></li>
+        </ul>
+    </div>
+    <!-- 侧边栏结束 -->
+    <!-- main2区域开始 -->
+    <main>
+        <div class="w">
+            <div class="content">
+                <ul class="clearfix">
+                    <li><a href="goods.html"><img src="imgs/c1.jpg" alt="">
+                            <h2>乌村稻舍亲子度假套餐</h2>
+                        </a></li>
+                    <li id="c1"><a href="goods.html"><img src="imgs/c2.jpg" alt="">
+                            <h2>乌村生态观光游 ￥50/人起</h2>
+                        </a></li>
+                    <li id="c2"> <a href="goods.html"><img src="imgs/c3.jpg" alt="">
+                            <h2>乌村住宿一价全包￥1170起</h2>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+
+
+    </main>
+    <!-- main2区域结束 -->
+    <!-- main3区域开始 -->
+    <main>
+        <div class="w">
+            <div class="box3">
+                <div class="box3_h">
+                    <h3>攻略&体验专辑</h3>
+                </div>
+                <div class="box3_img">
+                    <div class="rimg ">
+
+                        <a href="#"><img src="imgs/d4.jpg" alt="">
+                            <div class="mask">
+                                <p style="padding-top: 100px;">
+                                    &nbsp;&nbsp;闷过了一整个冬天，是时候出来透透气啦！现在已是阳春三月，趁着春日暖阳，快带上你的好朋友一块出来度假吧~
+                                </p>
+                                <p>&nbsp;&nbsp;说起度假，那不得不推我们乌村啦，我们乌村位于江浙沪“金三角”之地，杭嘉湖平原，京杭大运河穿插而过，除了地理上的方便，自然也少不了活动上的乐趣啦~
+                                </p>
+                            </div>
+                            <span class="lfoot">
+                                乌村一小时蔬菜，吃的就是新鲜！——乌村Village官网
+                            </span>
+                        </a>
+                    </div>
+                    <div class="limg">
+                        <ul class="clearfix">
+
+                            <li><a href="#">
+                                    <div class="mask">
+                                        <p>“采菊东篱下，悠然见南山”，在钢筋混凝土铸就的大楼间穿梭的现代人，心中大抵都带着对陶渊明笔下这个世外桃源的幻想和向往。</p>
+                                    </div>
+                                    <img src="imgs/d1.jpg" alt="">
+                                    <span class="lfoot">“采菊东篱下，悠然见南山”——乌村官网</span>
+                                </a></li>
+                            <li><a href="#">
+                                    <div class="mask">
+                                        <p>乌村，暑假溜娃最佳去处
+                                            江浙沪2小时直达
+                                            享受三餐特色美食
+                                            免费游览西栅、乌镇互联网会展中心
+                                            海量乐高、烘焙、攀岩、编织等20余种活动免费体验
+                                            那么这份乌村游玩攻略，你想不想要？</p>
+                                    </div>
+                                    <img src="imgs/d2.jpg" alt="">
+                                    <span class="lfoot">亲子游，来一个乌村就够了！——乌村官网</span>
+                                </a></li>
+                            <li><a href="#">
+                                    <div class="mask">
+                                        <p>给孩子一个亦学亦玩的暑假
+                                            给自己一个轻松愉快的假期
+                                            get了这份乌村旅游攻略，还怕不知道怎么玩吗？</p>
+                                    </div>
+                                    <img src="imgs/d3.jpg" alt="">
+                                    <span class="lfoot">一份乌村游玩攻略，请收好！——乌村Village</span>
+                                </a></li>
+                            <li><a href="#">
+                                    <div class="mask">
+                                        <p>这是一个遇见后高于期待的地方
+                                            这是一个还没离开就计划再来的地方
+                                            这是一个让人念念不忘的地方
+                                            亲子游不再是疲惫的旅途
+                                            而是一次一家三口的美好回忆~~</p>
+                                    </div>
+                                    <img src="imgs/d5.jpg" alt="">
+                                    <span class="lfoot">乌村亲子游攻略，周末带娃必备！——乌村官网</span>
+                                </a></li>
+                        </ul>
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div class="box4">
+                <div class="box3_h" style="margin-top: 50px;">
+                    <h4>来乌村，和春天撞个满怀!</h4>
+                </div>
+                <div class="box4_img">
+                    <ul class="clearfix">
+                        <li><a href="#">
+                                <div class="item">
+                                    <img src="imgs/e1.jpg" alt="">
+                                    <div class="text">
+                                        “听山河把春风酿成千言万语，吹过旧人故里。”
+                                    </div>
+                                </div>
+                                <span>小村里，关于春天的一二三四五六</span>
+
+                            </a>
+                        </li>
+                        <li><a href="#">
+                                <div class="item">
+                                    <img src="imgs/e2.jpg" alt="">
+                                    <div class="text">
+                                        <p style="padding-right: 150px;">“若到江南赶上春，千万和春住。”</p>
+                                        <p style="padding-left: 150px;">——王观《卜算子·送鲍浩然之浙东》</p>
+                                    </div>
+                                </div>
+                                <span>乌村游玩攻略| 春天可以这么玩儿</span>
+                            </a>
+                        </li>
+                        <li><a href="#">
+                                <div class="item">
+                                    <img src="imgs/e3.jpg" alt="">
+                                    <div class="text">
+                                        3.8.即将到来，各位女生、女神、女王，想好怎么过节了嘛？让阿村来为你解锁正确的打开方式吧~
+                                    </div>
+                                </div>
+                                <span>女神节出游|乌村是理想地</span>
+                            </a>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+
+    </main>
+    <!-- main3区域结束-->
+
+
+    <!-- footer区域start：版权标志、姓名、学号 -->
+    <footer>
+
+        <div class="fdiv">
+            <ul>
+                <li><a href="#">
+                        <img src="imgs/f1.png" alt="">
+                        <i>美食</i>
+                    </a>
+                </li>
+                <li><a href="#">
+                        <img src="imgs/f2.png" alt="">
+                        <i>住宿</i>
+                    </a></li>
+                <li><a href="#">
+                        <img src="imgs/f3.png" alt="">
+                        <i>游玩项目</i>
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+        <div class="map">
+            <img src="imgs/map.png" alt="">
+        </div>
+
+
+
+
+        <div class="footer ">
+            <div class="w">
+
+                <div class="flogo">
+                    <img src="imgs/logo-white.png" alt="">
+                </div>
+                <div class="fr">
+                    <ul>
+                        <p>官方权威预订平台</p>
+                    </ul>
+                    <ul>
+                        <p>一价全包畅享超值服务</p>
+                    </ul>
+                    <ul>
+                        <p>CCO服务保障高品质度假</p>
+                    </ul>
+                    <ul>
+                        <p>7x24小时服务</p>
+                    </ul>
+                </div>
+                <div class="links">
+                    <dl>
+                        <dd><a href="#">联系我们</a></dd>
+                        <dd><a href="#">电话：123-456-7890</a></dd>
+                        <dd><a href="#">问卷调查</a></dd>
+                        <dd><a href="#">献计献策</a></dd>
+
+                    </dl>
+                    <dl>
+                        <dd><a href="index.html">乌镇官网</a></dd>
+                        <dd><a href="book.html">乌镇预定网</a></dd>
+                        <dd><a href="#">乌镇戏剧节</a></dd>
+                        <dd><a href="#">古北水镇官网</a></dd>
+
+                    </dl>
+                    <dl>
+
+                        <dd><a href="#">服务指南</a></dd>
+                        <dd><a href="#">交通路线</a></dd>
+                        <dd><a href="#">常见问题</a></dd>
+                        <dd><a href="#">网站地图</a></dd>
+
+                    </dl>
+
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="flast">
+            <span>版权申明</span>
+            <span>张秋生&copy;20220002185&copy;</span>
+
+        </div>
+
+    </footer>
+
+    <!-- footer区域end -->
+
+    <script>
+        let currentIndex = 1;
+        const slides = document.querySelectorAll('.slide');
+        const dots = document.querySelectorAll('.dot');
+        const slidesContainer = document.querySelector('.slides');
+
+        function showSlide(index) {
+            // 隐藏所有幻灯片
+            slides.forEach((slide, idx) => {
+                slide.style.display = idx === index - 1 ? 'block' : 'none';
+            });
+            // 更新小圆点
+            dots.forEach((dot, idx) => {
+                dot.classList.toggle('active', idx + 1 === index);
+            });
+        }
+
+        showSlide(currentIndex);
+
+        function currentSlide(index) {
+            currentIndex = index;
+            showSlide(index);
+        }
+
+        // 轮播图自动播放
+        setInterval(() => {
+            currentIndex++;
+            if (currentIndex > slides.length) currentIndex = 1;
+            showSlide(currentIndex);
+        }, 3000); // 3秒切换一次
+    </script>
+
+</body>
+
+
+</html>

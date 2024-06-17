@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.w {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #F9F8F5;
+}
+
+/* head区域 */
+
+
+
+.head {
+    position: fixed;
+    top: 0;
+    z-index: 200;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 90px;
+    border-bottom: 1px solid #333030;
+}
+
+.head .logo {
+    position: relative;
+    float: left;
+    bottom: 8px;
+    width: 59px;
+    height: 71px;
+    margin-left: 45px;
+
+    padding-top: 18px;
+
+
+}
+
+.head .logo img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.head .fl {
+    float: left;
+
+    width: 735px;
+    margin-left: 100px;
+
+
+}
+
+.fl ul li {
+
+    float: left;
+    width: 80px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 25px;
+
+}
+
+.fl ul li:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+.fl ul li a {
+    color: #fff;
+}
+
+
+
+.fl ul li:nth-child(even) {
+    width: 1px;
+    height: 18px;
+    line-height: 90px;
+    background-color: #fff;
+    margin: 38px 15px 0;
+
+}
+
+
+.login {
+    float: right;
+    width: 300px;
+    height: 90px;
+    line-height: 90px;
+}
+
+
+.login ul li {
+    float: left;
+
+    margin-left: 20px;
+    font-size: 18px;
+    color: #fff;
+}
+
+
+
+
+.s_red {
+    color: rgb(194, 46, 46);
+}
+
+.phone {
+    float: right;
+    margin-right: 60px;
+    line-height: 90px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.first {
+    position: relative;
+    height: 250px;
+}
+
+.first img {
+    height: 100%;
+    width: 100%;
+}
+
+.title {
+    position: absolute;
+    bottom: -35px;
+    background-color: #272831bf;
+    width: 250px;
+    height: 90px;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+}
+
+.title h2 {
+    display: block;
+    width: 240px;
+    height: 80px;
+    font-size: 40px;
+    color: #fff;
+    line-height: 80px;
+    border: 2px solid #fff;
+    background-color: #272831bf;
+
+}
+
+.vid {
+
+    height: 400px;
+}
+
+.vid video {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.nav ul li {
+    float: left;
+}

@@ -1,0 +1,404 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?4opn0b');
+    src: url('../fonts/icomoon.eot?4opn0b#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?4opn0b') format('truetype'),
+        url('../fonts/icomoon.woff?4opn0b') format('woff'),
+        url('../fonts/icomoon.svg?4opn0b#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.w {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+body {
+    background: url(../imgs/background);
+}
+
+/* head区域 */
+
+
+
+.head {
+    position: relative;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    background-color: #1B4549;
+    height: 90px;
+    border-bottom: 1px solid #333030;
+}
+
+.head .logo {
+    position: relative;
+    float: left;
+    bottom: 8px;
+    width: 59px;
+    height: 71px;
+    margin-left: 45px;
+
+}
+
+.head .logo img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.head .fl {
+    float: left;
+
+    width: 735px;
+    margin-left: 100px;
+
+
+}
+
+.fl ul li {
+
+    float: left;
+    width: 100px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 25px;
+
+}
+
+.fl ul li:hover {
+    background-color: #345B5E;
+}
+
+
+.fl ul li a {
+    color: #fff;
+}
+
+.fl ul li ul.sub-menu {
+    display: none;
+    position: absolute;
+    background-color: #1B4549;
+
+}
+
+.fl ul li:hover>ul.sub-menu {
+    display: block;
+}
+
+.fl ul li ul.sub-menu li {
+    float: none;
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+
+}
+
+.fl .white {
+    width: 1px;
+    height: 18px;
+    line-height: 90px;
+    background-color: #fff;
+    margin: 38px 15px 0;
+
+}
+
+
+.login {
+    float: right;
+    width: 300px;
+    height: 90px;
+    line-height: 90px;
+}
+
+
+.login ul li {
+    float: left;
+
+    margin-left: 20px;
+    font-size: 18px;
+    color: #fff;
+}
+
+
+.relation {
+    position: fixed;
+    right: 0;
+    top: 25%;
+    width: 50px;
+    height: 320px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 35px;
+
+}
+
+.relation ul li {
+    display: block;
+    height: 50px;
+    margin-top: 15px;
+    line-height: 50px;
+
+}
+
+.return {
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+.return a {
+    font-family: 'icomoon';
+    color: black;
+    font-size: 50px;
+
+}
+
+.relation img {
+    width: 100%;
+    height: 100%;
+}
+
+.s_red {
+    color: rgb(194, 46, 46);
+}
+
+.phone {
+    float: right;
+    margin-right: 60px;
+    line-height: 90px;
+    font-size: 18px;
+    color: #fff;
+}
+
+
+
+.fimg {
+    height: 230px;
+
+}
+
+.fimg img {
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    padding-top: 18px;
+}
+
+.registerarea {
+    height: 500px;
+    width: 700px;
+    margin: 80px auto;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 2px 2px 20px 2px #eae9e9;
+
+}
+
+.registerarea h3 {
+    height: 42px;
+    line-height: 42px;
+    color: black;
+    padding: 0 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.rlogin {
+    float: right;
+    font-size: 14px;
+}
+
+.reg_form {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.reg_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+    color: black;
+
+}
+
+.reg_form ul li {
+    margin-top: 40px;
+}
+
+.reg_form ul li .inp {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #333;
+}
+
+.error {
+    color: red;
+}
+
+.error span {
+    margin-left: 20px;
+}
+
+.error_icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    margin-top: -2px;
+    margin-left: 10px;
+    background: url(../imgs/error.png) no-repeat;
+}
+
+.success {
+    color: green;
+}
+
+.success_icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    margin-top: -2px;
+    margin-left: 10px;
+    background: url(../imgs/success.png) no-repeat;
+}
+
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+
+.safe em {
+    padding: 0 12px;
+    color: #fff;
+
+}
+
+.safe {
+    padding-left: 165px;
+
+}
+
+.agree {
+    padding-left: 95px;
+
+
+}
+
+.ageree input {
+    vertical-align: middle;
+}
+
+.btn {
+    width: 200px;
+    height: 34px;
+    color: #fff;
+    margin: 30px 0 0 100px;
+    background-color: #f57d00;
+    font-size: 14px;
+}
+
+/* footer开始 */
+
+.footer {
+    height: 200px;
+    background-color: #1B4549;
+    color: #fff;
+
+}
+
+
+
+.footer .flogo {
+    float: left;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.fr {
+    float: left;
+    margin-top: 50px;
+    width: 230px;
+    height: 120px;
+    margin-left: 100px;
+
+
+}
+
+.fr p {
+    font-size: 16px;
+    margin-top: 5px;
+
+}
+
+
+.footer .links {
+    float: left;
+    margin-top: 50px;
+
+}
+
+.footer .links dl {
+    float: left;
+
+}
+
+.footer .links dl dd {
+    font-size: 16px;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+.footer .links dl dd a {
+    color: #fff;
+}
+
+.footer .links dl dd a:hover {
+    color: red;
+}
+
+.flast {
+    height: 50px;
+    text-align: center;
+    background-color: #1B4549;
+    line-height: 50px;
+    color: #fff;
+    border-top: 1px solid #fff;
+
+    font-size: 16px;
+}
+
+.flast span {
+
+    margin-top: 50px;
+
+}
