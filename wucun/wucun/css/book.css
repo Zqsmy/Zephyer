@@ -1,0 +1,425 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?4opn0b');
+    src: url('../fonts/icomoon.eot?4opn0b#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?4opn0b') format('truetype'),
+        url('../fonts/icomoon.woff?4opn0b') format('woff'),
+        url('../fonts/icomoon.svg?4opn0b#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.w {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #F9F8F5;
+}
+
+/* head区域 */
+.head {
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    background-color: #1B4549;
+    height: 90px;
+    line-height: 90px;
+    border-bottom: 1px solid #333030;
+}
+
+.head .logo {
+    float: left;
+    width: 59px;
+    height: 71px;
+    margin-left: 50px;
+
+
+
+}
+
+.logo_img {
+    width: 100%;
+    height: 100%;
+    margin-top: -30px;
+}
+
+
+.head .fl {
+    float: left;
+    margin-left: 80px;
+    width: 735px;
+
+
+
+}
+
+
+.fl ul li {
+
+    float: left;
+    width: 80px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 25px;
+
+}
+
+.fl ul li:hover {
+    background-color: #345B5E;
+}
+
+
+.fl ul li a {
+    color: #fff;
+}
+
+.fl ul li ul.sub-menu {
+    display: none;
+    position: absolute;
+    background-color: #1B4549;
+
+}
+
+.fl ul li:hover>ul.sub-menu {
+    display: block;
+}
+
+.fl ul li ul.sub-menu li {
+    float: none;
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+
+}
+
+.fl .white {
+    width: 1px;
+    height: 18px;
+    line-height: 90px;
+    background-color: #fff;
+    margin: 38px 15px 0;
+
+}
+
+
+.login {
+    float: right;
+
+    width: 300px;
+    height: 90px;
+    line-height: 90px;
+}
+
+
+.login ul li {
+    float: left;
+
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+}
+
+
+
+
+.s_red {
+    color: rgb(194, 46, 46);
+}
+
+.phone {
+    float: right;
+    margin-right: 60px;
+    line-height: 90px;
+    font-size: 16px;
+    color: #fff;
+}
+
+
+
+.logo {
+    padding-top: 18px;
+}
+
+.first {
+    position: relative;
+    height: 480px;
+}
+
+.first img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.first_title h1 {
+    position: absolute;
+    top: 25%;
+    left: 45%;
+
+
+    color: rgb(226, 226, 226);
+    font-family: "宋体";
+
+    font-weight: 400;
+
+    font-size: 50px;
+
+}
+
+.first_title p {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+
+    color: rgb(226, 226, 226);
+    font-family: "宋体";
+    padding: 10px 15px 20px 15px;
+    width: 850px;
+    font-size: 16px;
+
+    margin: auto;
+    text-align: center;
+}
+
+.content {
+
+    height: 600px;
+    margin-top: 30px;
+
+}
+
+.content ul li {
+    float: left;
+    margin-left: 45px;
+
+}
+
+.list {
+    width: 420px;
+    height: 250px;
+
+}
+
+.content ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+.text {
+    width: 420px;
+    height: 270px;
+    text-align: center;
+    border: 1px solid #ccc;
+
+    color: #345B5E;
+}
+
+.text h3 {
+    font-size: 20px;
+    font-weight: 400;
+    height: 20px;
+
+}
+
+.text span {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+
+
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.text_p {
+
+    height: 170px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+}
+
+.text_p p {
+    margin-top: 5px;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.text h2 {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.text a i {
+    font-family: 'icomoon';
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.text_bt {
+    margin-top: 20px;
+    height: 100px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-top: none;
+
+}
+
+.text button {
+    display: block;
+    width: 180px;
+    height: 30px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 120px;
+    border-radius: 15px;
+    background-color: #637332;
+    color: #fff;
+}
+
+
+
+
+
+.footer {
+
+    height: 200px;
+    background-color: #1B4549;
+    color: #809899;
+    margin-top: 100px;
+
+
+}
+
+
+.relation {
+    position: fixed;
+    right: 0;
+    top: 25%;
+    width: 50px;
+    height: 320px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 35px;
+
+}
+
+.relation ul li {
+    display: block;
+    height: 50px;
+    margin-top: 15px;
+    line-height: 50px;
+
+}
+
+.return {
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+.return a {
+    font-family: 'icomoon';
+    color: black;
+    font-size: 50px;
+
+}
+
+.relation img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer .flogo {
+    float: left;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.fr {
+    float: left;
+    margin-top: 50px;
+    width: 230px;
+    height: 120px;
+    margin-left: 100px;
+
+
+}
+
+.fr p {
+    font-size: 16px;
+    margin-top: 5px;
+
+}
+
+
+.footer .links {
+    float: left;
+    margin-top: 50px;
+
+}
+
+.footer .links dl {
+    float: left;
+
+}
+
+.footer .links dl dd {
+    font-size: 16px;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+.footer .links dl dd a {
+    color: #809899;
+}
+
+.footer .links dl dd a:hover {
+    color: #CFE8A7;
+}
+
+.flast {
+    height: 50px;
+    text-align: center;
+    background-color: #1B4549;
+    line-height: 50px;
+    color: #809899;
+    border-top: 1px solid #fff;
+
+    font-size: 16px;
+}
+
+.flast span {
+    margin-top: 50px;
+
+}

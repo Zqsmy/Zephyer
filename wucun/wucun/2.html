@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-size: 12px;
+            list-style: none;
+            text-decoration: none;
+        }
+
+        .wrapper {
+            width: 250px;
+            height: 248px;
+            margin: 50px auto;
+            border: 1px solid palegreen;
+            border-right: 0;
+            overflow: hidden;
+        }
+
+        #left,
+        #content {
+            float: left;
+        }
+
+        #left li {
+            background-color: beige;
+        }
+
+        #left li a {
+            display: block;
+            width: 48px;
+            height: 27px;
+            border-bottom: 1px solid palegreen;
+            line-height: 27px;
+            text-align: center;
+            color: black;
+        }
+
+        #left li a:hover {
+            background-color: cadetblue;
+        }
+
+        #content {
+            border-left: 1px solid palegreen;
+            border-right: 1px solid palegreen;
+        }
+    </style>
+    <script src="js/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <ul id="left">
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">6</a></li>
+            <li><a href="#">7</a></li>
+            <li><a href="#">8</a></li>
+            <li><a href="#">9</a></li>
+            <li><a href="#">10</a></li>
+        </ul>
+        <div id="content">
+            <div><a href="#"><img src="imgs/bd1.jpg" width="200" height="250" /></a></div>
+            <div><a href="#"><img src="imgs/bd2.jpg" width="200" height="250" /></a></div>
+            <div><a href="#"><img src="imgs/bd3.jpg" width="200" height="250" /></a></div>
+            <div><a href="#"><img src="imgs/bd4.jpg" width="200" height="250" /></a></div>
+            <div><a href="#"><img src="imgs/c1.jpg" width="200" height="250" /></a></div>
+            <div><a href="#"><img src="imgs/c2.jpg" width="200" height="250" /></a></div>
+            <dibv><a href="#"><img src="imgs/c3.jpg" width="200" height="250" /></a></dibv>
+            <div><a href="#"><img src="imgs/c4.jpg" width="200" height="250" /></a></div>
+            <div><a href="#"><img src="imgs/d1.jpg" width="200" height="250" /></a></div>
+            <div><a href="#"><img src="imgs/d2.jpg" width="200" height="250" /></a></div>
+        </div>
+    </div>
+
+    <script>
+        $("#left li").mouseover(function () {
+            var index = $(this).index();
+            console.log(index);
+            $("#content div").eq(index).show();
+            $("#content div").eq(index).siblings().hide();
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,370 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?4opn0b');
+    src: url('../fonts/icomoon.eot?4opn0b#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?4opn0b') format('truetype'),
+        url('../fonts/icomoon.woff?4opn0b') format('woff'),
+        url('../fonts/icomoon.svg?4opn0b#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.w {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+
+.top {
+    width: 70px;
+    height: 230px;
+}
+
+body {
+    background-color: #F9F8F5;
+}
+
+.sidebar {
+    float: left;
+    position: relative;
+    background-color: #31364d;
+    width: 70px;
+    height: 100vh;
+    z-index: 200;
+    border-top-right-radius: 10px;
+
+
+}
+
+.sidebar .tx {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    width: 36px;
+    height: 36px;
+    margin-left: -18px;
+}
+
+.sidebar .tx img {
+    border-radius: 18px;
+    border: 1px solid #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.subnav {
+    position: absolute;
+    top: 80px;
+}
+
+.subnav ul li {
+    width: 70px;
+    height: 80px;
+}
+
+.subnav ul li .icfont {
+    font-family: 'icomoon';
+    text-align: center;
+    padding-top: 5px;
+    font-size: 25px;
+}
+
+.subnav ul li span {
+    font-size: 12px;
+}
+
+.subnav ul li button {
+    width: 70px;
+    height: 80px;
+    color: #99A0BF;
+    background-color: #31364d;
+}
+
+.subnav ul li button:hover {
+    color: #fff;
+}
+
+.subnav ul li button:focus {
+    color: #fff;
+    background-color: #1c223b;
+}
+
+.botnav {
+    position: absolute;
+    bottom: 5px;
+    width: 70px;
+    height: 70px;
+
+}
+
+.logo {
+    margin-bottom: 10px;
+    width: 50px;
+    height: 60px;
+    margin-left: 5px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.setting {
+    position: absolute;
+    bottom: 80px;
+}
+
+.setting ul li {
+
+    width: 70px;
+    height: 80px;
+
+
+}
+
+.setting ul li .icfont {
+    font-family: 'icomoon';
+    text-align: center;
+
+    padding-top: 5px;
+    font-size: 25px;
+}
+
+.setting ul li span {
+    font-size: 12px;
+}
+
+.setting ul li button {
+    width: 70px;
+    height: 80px;
+    color: #99A0BF;
+
+    background-color: #31364d;
+}
+
+.setting ul li button:hover {
+    color: #fff;
+}
+
+.setting ul li button:focus {
+    color: #fff;
+    background-color: #1c223b;
+}
+
+header {
+    position: relative;
+    height: 100%;
+}
+
+.head {
+    position: relative;
+    display: flex;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    background-color: #fff;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .2);
+    font-family: 'icomoon';
+    border-top-left-radius: 10px;
+
+
+
+}
+
+.head span {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 2px;
+    color: #5096f5;
+    margin-right: 10px;
+}
+
+.head h2 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+}
+
+.mrnav {
+    position: absolute;
+    left: 70px;
+    height: 93vh;
+    width: 150px;
+    padding: 10px;
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
+}
+
+.mrnav ul li {
+    width: 130px;
+    height: 40px;
+
+    margin: 0 0 10px;
+}
+
+.mrnav ul li button {
+    width: 130px;
+    height: 40px;
+    color: #9b9b9b;
+    font-size: 16px;
+    background-color: #fff;
+
+}
+
+.mrnav ul li button:hover {
+    background-color: #EDF4FE;
+    color: #5096f5;
+}
+
+.mrnav ul li button:focus {
+    background-color: #EDF4FE;
+    color: #5096f5;
+}
+
+.content {
+    position: relative;
+    left: 230px;
+    top: 20px;
+    width: 1440px;
+    height: 100%;
+    margin-left: 10px;
+}
+
+.title {
+
+    width: 1280px;
+    margin-left: 100px;
+    padding-top: 5px;
+    background-color: #fff;
+    line-height: 50px;
+    border: 1px solid #ccc;
+}
+
+.title h2 {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+    padding-left: 20px;
+
+}
+
+.content form {
+
+    margin-left: 100px;
+    width: 1280px;
+    height: 560px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+
+}
+
+.content .ctx {
+    width: 100px;
+    height: 100px;
+}
+
+.content ul {
+    margin-left: 400px;
+    padding-top: 30px;
+}
+
+.content ul li {
+
+    width: 600px;
+    height: 100px;
+    line-height: 100px;
+
+}
+
+form ul li span {
+    display: inline-block;
+    color: #333;
+    font-size: 18px;
+    width: 80px;
+    height: 100px;
+    line-height: 100px;
+    text-align: right;
+}
+
+.content .ctx {
+    display: inline-block;
+}
+
+.content .ctx img {
+    margin-left: 15px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.content ul li input {
+    margin-left: 5px;
+    width: 380px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+
+.sub {
+    position: relative;
+    margin-left: 100px;
+
+    width: 1280px;
+    height: 80px;
+    margin-top: 2px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+
+
+}
+
+#bc {
+    position: absolute;
+    left: 50%;
+    margin-top: 30px;
+    width: 186px;
+    height: 36px;
+    border-radius: 18px;
+    color: #fff;
+    font-size: 16px;
+    background-color: #5096f5;
+}
+
+#cg {
+    position: absolute;
+    left: 30%;
+    margin-top: 30px;
+    width: 186px;
+    height: 36px;
+    border-radius: 18px;
+    color: #fff;
+    font-size: 16px;
+    background-color: #5096f5;
+}
